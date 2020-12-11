@@ -1,4 +1,4 @@
-def dicstra(n,edges,src,dst):
+def dijkstra(n,edges,src,dst):
     f = collections.defaultdict(dict) # エッジ情報
     # エッジの重みが既存のものより小さい時のみ更新
     for u, v , p in edges:
